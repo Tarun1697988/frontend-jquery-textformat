@@ -10,8 +10,8 @@ function textTransform (text) {
 	const removeLineTransitionRegExp = /\n/g;
 
 	return text.toLowerCase().trim()
-    .replace(removeDoubleSpaceRegExp, ' ')
-    .replace(removeLineTransitionRegExp, ' ');
+		.replace(removeDoubleSpaceRegExp, ' ')
+		.replace(removeLineTransitionRegExp, ' ');
 }
 
 function addText (element, text) {
